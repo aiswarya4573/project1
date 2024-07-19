@@ -1,0 +1,217 @@
+body{
+    font-family: 'Poppins';
+
+}
+
+
+
+
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+
+.mainlogo{
+    color:#EB6D20;
+    font-weight: 600;
+    font-size: 19px;
+   
+    
+}
+.nav-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.searchdiv{
+    display: flex;
+    background-color: #fff;
+    padding: 8px 12px 8px 8px;
+    border-radius: 25px;
+    gap: 1rem;
+    width: 760px;
+    height: 48px;
+    
+}
+.navbar{
+    background-color: #FFF9F3;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#drop{
+    border: none;
+    background-color: #F5F6F8;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+}
+.dropbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 154px;
+    height: 32px;
+    border-radius: 50px;
+    
+}
+.dropdown{
+    padding: 8px 24px 8px 24px;
+    font-family: "Poppins";
+    font-size: 400;
+    color:#3E3E3E;
+}
+.search_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9A9A9A;
+    
+   
+
+}
+.search_nav{
+    border:none;
+    width: 520px;
+}
+.help{
+    border-radius: 50px;
+    color: #fff;
+    background-color: #EB6D20;
+    padding: 16px 30px 16px 30px;
+    line-height: 16px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.thirddiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    
+}
+.accountname{
+    color:#3E3E3E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.shopingname{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+.account-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.shoping-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.thirddiv a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3E3E3E;
+
+}
+
+.searchdiv select{
+    font-size: 12px;
+}
+.searchdiv input{
+    font-size: 12px;
+}
+.firstrow-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.paraname{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    color: white;
+    height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.paranametwo{
+    position: absolute;
+    top: 280px;
+    left: 560px;
+    color: white;
+    height: 20px;
+    font-weight: 560;
+    font-size: 16px;
+}
+.paranamethree{
+    position: absolute;
+    top: 280px;
+    right: 300px;
+    color: white;
+    height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-150px);
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.onepara{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width:113px;
+    height: 40px;
+    margin-left: 0px;
+    text-align: left;
+}
+.twopara{
+    width: 190px;
+    
+}
+.oneparadiv{
+    width:113px;
+    height: 40px;
+    word-wrap: break-word;
+
+}
+.twoparadiv{
+    width: 180px;
+    height: 32px;
+    word-wrap: break-word;
+    
+
+}
