@@ -359,7 +359,7 @@ border-radius: 10px;
     height:80px;
     top:1886px;
     left:748px;
-    radius:5px;
+    border-radius:5px;
     transform: translateY(100px);
     text-align: center;
 }
