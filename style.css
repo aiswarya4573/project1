@@ -3,10 +3,6 @@ body{
 
 }
 
-
-
-
-
 .poppins-light {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -43,6 +39,7 @@ body{
     height: 48px;
     
 }
+
 .navbar{
     background-color: #FFF9F3;
     display: flex;
@@ -203,15 +200,223 @@ li{
     
 }
 .oneparadiv{
+    text-align: justify;
     width:113px;
     height: 40px;
-    word-wrap: break-word;
+    
 
 }
 .twoparadiv{
-    width: 180px;
+    text-align: justify;
+    width: 176px;
     height: 32px;
-    word-wrap: break-word;
+   
+   
     
 
+}
+.findthings{
+    color: #3E3E3E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    position: absolute;
+    top: 1006px;
+    left: 85px;
+
+}
+.onlyon{
+    position: absolute;
+    color: #9A9A9A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    top: 1045px;
+    left: 84px;
+  
+
+}
+.fourthouter{
+    width: 144px;
+    height: 144px;
+    top: 1168px;
+    left: 300px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+    border-radius: 10px;
+    
+
+}
+.fourthrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin-left: 87px;
+}
+#oneimg{
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+#twoimg{
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+#threeimg{
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+#fourimg{
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+#fiveimg{
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+#siximg{
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+#sevenimg{
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+#eightimg{
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+.fifthrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin-left: 87px;
+    margin-top: 110px;
+
+}
+.fifthone{
+width: 200px;
+height: 290px;
+top: 1476px;
+left: 300px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+border-radius: 10px;
+
+}
+.craft{
+    color: #3E3E3E;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    text-align: center;
+    margin-top: 30px;
+
+   
+}
+.bagname{
+    font-size: 12px; 
+    font-weight: 400; 
+    line-height: 16px;
+    transform: translateX(-18px);
+}
+.pricename{
+    transform: translateX(-18px);
+}
+.sixthrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin-left: 87px;
+    
+}
+.sixone{
+    border-bottom:#E9E9E9 solid;
+    width:200px;
+    height:80px;
+    top:1886px;
+    left:748px;
+    radius:5px;
+    transform: translateY(100px);
+    text-align: center;
+}
+.seventhrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    margin-left: 87px;
+    transform: translateY(190px);
+    
+}
+.sevenone{
+    width: 312px;
+    height: 418px;
+    top: 1935px;
+    left: 300px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    
+
+}
+#svn1{
+    width: 312px;
+    height: 418px;
+    top: 1935px;
+    left: 636px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 5px;
+    background-color:#FBF7D3;
+    
+
+}
+#svn2{
+    width: 312px;
+    height: 418px;
+    top: 1935px;
+    left: 636px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 5px;
+    background: #FFBDBD;
+;
+    
+
+}
+#svn3{
+    width: 312px;
+    height: 418px;
+    top: 1935px;
+    left: 636px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 5px;
+    background: #C0ABFD;
+;
+    
+
+}
+.image-inner-div-2{
+    transform: translateY(40px);
+}
+.product-img-2{
+    transform: translateX(30px);
 }
