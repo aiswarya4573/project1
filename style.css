@@ -589,6 +589,9 @@ text-align: justify;
 
 
 }
+.scroll{
+    transform: translateX(100px);
+}
 .social-media{
     width:32px;
     height:32px;
@@ -656,7 +659,8 @@ margin-top: 110px;
     #subscribe-btn{
         transform: translateX(-10px);
         margin-top: 70px;
-        width: 240px;
+        width: 256px;
+        height: 32px;
     }
     .form-box{
         transform: translateX(70px);
@@ -665,9 +669,7 @@ margin-top: 110px;
 
 
     }
-    .comm{
-
-    }
+   
     .ninethrow a{
         display: none;
     }
@@ -916,5 +918,210 @@ margin-top: 110px;
 
 
     }
-    
+    @media screen and (min-width:601px) and (max-width:902px){
+        .navbar{
+            width: auto;
+            height: 164px;
+        }
+        .nav-second{
+            display: none;
+        }
+        .search_nav{
+            width: 480px;
+            transform: translateX(-90px);
+        }
+        .searchdiv{
+            height: 48px;
+            width: 742px;
+            transform: translateY(80px);
+            margin-left: -20px;
 
+        }
+        .thirddiv{
+            transform: translateX(-307px);
+            margin-top: 10px;
+        }
+        .menu{
+            display: flex;
+            transform: translateX(-270px);
+            background-color: white;
+            border-radius: 100px;
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+            margin-top: -10px;
+            width: 86px;
+            height: 48px;
+        }
+        .menu img{
+            font-size: 60px;
+            transform: translateX(10px);
+        }
+       
+        #oneimage{
+            width: 268px;
+            height: 180px;
+        }
+        #twoimage{
+            width: 268px;
+            height: 180px;
+        }
+        
+        #thirdimage{
+            width: 268px;
+            height: 180px;
+        }
+        .firstrow-list{
+            display: flex;
+            gap: 1rem;
+            margin-left: -10px;
+        }
+        .mainlogo{
+            width: 120px;
+        }
+        .paraname{
+            transform: translateY(40px);
+            margin-left: -40px;
+        }
+        .paranametwo{
+            margin-left:-210px ;
+            transform: translateY(40px);
+
+        }
+        .paranamethree{
+            transform: translateX(180px);
+            margin-top: 40px;
+        }
+        #fourth-list{
+            display: none;
+        }
+        #se-one{
+            width: 268px;
+            height: 374px;
+
+        }
+        .list-items{
+            transform: translateY(-20px);
+        }
+        .items_link p{
+            width: 220px;
+        }
+        .product-img-2{
+            transform: translateX(-10px);
+        }
+        .items_link .price{
+            transform: translateY(-10px);
+        }
+        #se-two{
+            width: 268px;
+            height: 374px;
+
+        }
+        #se-three{
+            width: 268px;
+            height: 374px;
+
+        }
+        #threee{
+           transform: translateY(-20px); 
+        }
+        .scnd-ul{
+            transform: translateX(-75px);
+        }
+        .rect2{
+            width: 268px;
+            height: 282px;
+        }
+        .container1{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .onepara{
+            text-align: center;
+        }
+        #support .onepara{
+            width: 172px;
+            text-align: center;
+        }
+        .onlyon{
+            transform: translateY(90px);
+        }
+        .findthings{
+            transform: translateY(90px);
+        }
+        .fourthlist-ul{
+            display: flex;
+            flex-direction: column;
+            transform: translateX(-310px);
+           
+            gap: 2rem;
+        }
+        #Discover{
+            margin-left: 250px;
+            transform: translateY(1350px);
+            
+        }
+        .fifthlist{
+            display: flex;
+            flex-direction: column;
+            transform: translateX(-310px);
+           
+            gap: 2rem;
+        }
+        .sixthrow{
+            display: flex;
+            width: auto;
+            transform: translateX(-45px);
+            gap: 0.5rem;
+          
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+        .seven-ul{
+            display: flex;
+            width: auto;
+            transform: translateX(-45px);
+            gap: 0.5rem;
+            margin-top: 150px;
+          
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+        .ninethrow{
+            width: auto;
+            height: 258px;
+            transform: translateX(-30px);
+            margin-top: 120px;
+            border-radius: 5px;
+        }
+        .form-box{
+            transform: none;
+            margin-left: 80px;
+        }
+        .mainfoot{
+            width: auto;
+            
+        }
+        .scroll h6{
+            
+            transform:none;
+            margin-right: 90px;
+            width: 120px;
+            
+            font-size: 12px;
+        }
+        .mainfoot h6{
+            font-size: 12px;
+        }
+        .mainfoot p{
+            font-size: 12px;
+        }
+        .terms{
+            transform: none;
+        }
+    }
+        
