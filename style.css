@@ -733,7 +733,7 @@ margin-top: 110px;
         height: 100%;
         justify-content: center;
         align-items: center;
-        transform: translateX(-30px);
+        transform: translateX(-10px);
     }
     .scnd-ul{
         display: flex;
@@ -782,8 +782,9 @@ margin-top: 110px;
     }
     .ninethrow{
         width: 390px;
-        transform: translateX(-50px);
+        transform: translateX(-30px);
         margin-top: 120px;
+        border-radius: 5px;
     }
     .yes{
         font-size: 16px;
@@ -826,21 +827,23 @@ margin-top: 110px;
     .fifthlist{
         display: flex;
         flex-direction: column;
+        width: auto;
         gap: 1rem;
         height: 100%;
         justify-content: center;
         align-items: center;
-        transform: translateX(-530px);
+        transform: translateX(-70px);
 
     }
     .seven-ul{
         display: flex;
         flex-direction: column;
+        width: auto;
         gap: 1rem;
         height: 100%;
         justify-content: center;
         align-items: center;
-        transform: translateX(-530px);
+        transform: translateX(-60px);
 
 
     }
