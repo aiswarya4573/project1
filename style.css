@@ -33,6 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    
 }
 .nav-list{
     display: flex;
@@ -90,6 +91,9 @@ body{
    
 
 }
+#support{
+
+}
 .search_nav{
     border:none;
     width: 520px;
@@ -105,10 +109,12 @@ body{
 }
 .secondrow{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 1300px;
-    margin-left: 87px;
+    
+    margin-top: 20px;
+    
+    
 }
 .thirddiv{
     display: flex;
@@ -117,6 +123,7 @@ body{
     gap: 0.8rem;
     
 }
+
 .accountname{
     color:#3E3E3E;
     font-size: 14px;
@@ -160,16 +167,18 @@ li{
     font-size: 12px;
 }
 .firstrow-list{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
     
 }
 .paraname{
     position: absolute;
-    top: 280px;
-    left: 100px;
+    top: 130px;
+    left: 40px;
     color: white;
     height: 20px;
     font-weight: 500;
@@ -177,8 +186,8 @@ li{
 }
 .paranametwo{
     position: absolute;
-    top: 280px;
-    left: 560px;
+    bottom: 30px;
+    left: 20px;
     color: white;
     height: 20px;
     font-weight: 560;
@@ -186,8 +195,8 @@ li{
 }
 .paranamethree{
     position: absolute;
-    top: 280px;
-    right: 300px;
+    bottom: 30px;
+    left: 20px;
     color: white;
     height: 20px;
     font-weight: 500;
@@ -200,20 +209,24 @@ li{
     transform: translateY(20px);
     
 }
+
 .content{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 0.5rem;
    
 }
 .onepara{
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
-    width:113px;
-    height: 40px;
+    line-height: 16px;
+    
     margin-left: 0px;
     text-align: left;
+}
+#support{
+    margin-bottom: 10px;
 }
 .twopara{
     width: 190px;
@@ -235,25 +248,26 @@ li{
     
 
 }
+.paracontent{
+    
+    margin-left: 70px;
+    margin-top: 40px;
+}
 .findthings{
     color: #3E3E3E;
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
-    position: absolute;
-    top: 1006px;
-    left: 85px;
+    
 
 }
 .onlyon{
-    position: absolute;
+    
     color: #9A9A9A;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    top: 1045px;
-    left: 84px;
-  
+    
 
 }
 .fourthouter{
@@ -271,12 +285,16 @@ li{
 
 }
 .fourthlist-ul{
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 1300px;
-    margin-left: 87px;
-    transform: translateY(50px);
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #oneimg{
     margin-left: 8px;
@@ -318,13 +336,19 @@ li{
     margin-top: 8px;
 
 }
+#Discover{
+    margin-left: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 90px;
+}
 .fifthlist{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 1300px;
-    margin-left: 87px;
-    margin-top: 110px;
+    gap: 1rem;
+    margin-top: 40px;
+    flex-wrap: wrap;
 
 }
 .fifthone{
@@ -338,6 +362,14 @@ opacity: 0px;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
 border-radius: 10px;
 
+}
+
+.body-thirdrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 .craft{
     color: #3E3E3E;
@@ -378,13 +410,11 @@ border-radius: 10px;
     text-align: center;
 }
 .seven-ul{
+    margin-top: 180px;
+    gap: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 1300px;
-    margin-left: 87px;
-    transform: translateY(190px);
-    
 }
 .sevenone{
     width: 312px;
@@ -487,7 +517,8 @@ border-radius: 10px;
 
 }
 .image-inner-div-2{
-    transform: translateY(40px);
+    margin-top: 30px;
+    margin-left: 40px;
 }
 .product-img-2{
     transform: translateX(30px);
@@ -622,13 +653,17 @@ margin-top: 110px;
     
 }
 
+
 .scnd-ul{
+    
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    
+    flex-wrap: wrap;
 }
+    
+
 .mainfoot{
     display: flex;
     justify-content: space-between;
@@ -669,6 +704,9 @@ margin-top: 110px;
 
 
     }
+    #second-container{
+        margin-right: 30px;
+    }
    
     .ninethrow a{
         display: none;
@@ -687,18 +725,11 @@ margin-top: 110px;
     .help{
         visibility: hidden;
     }
-    .paraname{
-        z-index: 1;
-        margin-top: -150px;
-        transform: translateX(-30px);
-
-    }
     .paranametwo{
-        margin-top: 50px;
-        width: 300px;
-        z-index: 1;
-        transform: translateX(-490px);
+        left: 40px;
     }
+    
+    
     .paranamethree{
         transform: translateX(10px);
         margin-top: 240px;
@@ -745,23 +776,20 @@ margin-top: 110px;
         align-items: center;
         margin-left:-30px;
     }
+    
     #third{
         transform: translateX(-24px);
     }
     .fourthlist-ul{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        gap: 2rem;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(-530px);
-        margin-top: 80px;
+        
+        
+        gap: 3rem;
+        
+        
+        
         
     }
-    #Discover{
-        transform: translateY(-1250px);
-    }
+   
     .paracontent2{
         transform: translateY(10px);
 
@@ -787,8 +815,8 @@ margin-top: 110px;
     }
     .ninethrow{
         width: 390px;
-        transform: translateX(-30px);
-        margin-top: 120px;
+        margin-left: 10px;
+        
         border-radius: 5px;
     }
     .yes{
@@ -830,14 +858,7 @@ margin-top: 110px;
         text-align: center;
     }
     .fifthlist{
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        gap: 1rem;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        transform: translateX(-70px);
+        
 
     }
     .seven-ul{
@@ -848,7 +869,7 @@ margin-top: 110px;
         height: 100%;
         justify-content: center;
         align-items: center;
-        transform: translateX(-60px);
+        
 
 
     }
@@ -882,9 +903,7 @@ margin-top: 110px;
         
         
     }
-    #find{
-        position: none;
-    }
+    
     .foot-drop .social-drop{
         width: 288px;
         height: 48px;
@@ -904,12 +923,7 @@ margin-top: 110px;
         height: 24px;
     }
 
-    .findthings{
-        transform: translateY(2440px);
-    }
-    .onlyon{
-        transform: translateY(2460px);
-    }
+   
      .foot-drop button{
         margin-left: 100px;
     width: 288px;
@@ -981,19 +995,7 @@ margin-top: 110px;
         .mainlogo{
             width: 120px;
         }
-        .paraname{
-            transform: translateY(40px);
-            margin-left: -40px;
-        }
-        .paranametwo{
-            margin-left:-210px ;
-            transform: translateY(40px);
-
-        }
-        .paranamethree{
-            transform: translateX(180px);
-            margin-top: 40px;
-        }
+        
         #fourth-list{
             display: none;
         }
@@ -1024,12 +1026,15 @@ margin-top: 110px;
             height: 374px;
 
         }
+        #se-four{
+            width: 268px;
+            height: 374px;
+
+        }
         #threee{
            transform: translateY(-20px); 
         }
-        .scnd-ul{
-            transform: translateX(-75px);
-        }
+        
         .rect2{
             width: 268px;
             height: 282px;
@@ -1056,20 +1061,18 @@ margin-top: 110px;
         }
         .fourthlist-ul{
             display: flex;
-            flex-direction: column;
-            transform: translateX(-310px);
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            margin-top: 70px;
+            
+          
            
-            gap: 2rem;
-        }
-        #Discover{
-            margin-left: 250px;
-            transform: translateY(1350px);
             
         }
+        
         .fifthlist{
-            display: flex;
-            flex-direction: column;
-            transform: translateX(-310px);
+            
            
             gap: 2rem;
         }
@@ -1086,7 +1089,7 @@ margin-top: 110px;
         .seven-ul{
             display: flex;
             width: auto;
-            transform: translateX(-45px);
+            
             gap: 0.5rem;
             margin-top: 150px;
           
@@ -1101,9 +1104,12 @@ margin-top: 110px;
             margin-top: 120px;
             border-radius: 5px;
         }
+        .contentaboveform{
+            margin-left: 50px;
+        }
         .form-box{
             transform: none;
-            margin-left: 80px;
+            margin-left: 20px;
         }
         .mainfoot{
             width: auto;
@@ -1124,7 +1130,7 @@ margin-top: 110px;
             font-size: 12px;
         }
         .terms{
-            transform: none;
+            transform: none !important;
         }
     }
         
